@@ -1,4 +1,5 @@
 import os
+import binance
 
 from binance.client import Client
 
