@@ -29,4 +29,5 @@ if not btest :
 
 # get balances for margin account
 # will raise an exception if margin account is not activated
-#print(client.get_margin_account())
+if not btest : 
+    print(client.get_margin_account())
